@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="420" height="150" viewBox="0 0 420 150" role="img" aria-label="Email: sharnithat@gmail.com">
+<defs>
+ <linearGradient id="g" x1="0" y1="0" x2="1" y2="0"><stop stop-color="#c54cff"/><stop offset=".55" stop-color="#ef5cff"/><stop offset="1" stop-color="#ff75ce"/></linearGradient>
+ <linearGradient id="orb" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#df55ff"/><stop offset="1" stop-color="#9a2bb8"/></linearGradient>
+ <filter id="glow"><feGaussianBlur stdDeviation="4" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+ <filter id="soft"><feGaussianBlur stdDeviation="9"/></filter>
+</defs>
+<path d="M42 75 C25 45 44 20 72 18 C103 16 111 42 96 56" fill="none" stroke="#ff71dd" stroke-width="1.5" opacity=".65"/>
+<path d="M340 20 C370 16 390 35 376 58" fill="none" stroke="#ff71df" stroke-width="1.2" opacity=".45"/>
+<circle cx="72" cy="75" r="38" fill="#e653ff" opacity=".16" filter="url(#soft)"/>
+<rect x="25" y="31" width="370" height="88" rx="44" fill="#090511" fill-opacity=".9" stroke="url(#g)" stroke-width="2.5" filter="url(#glow)"/>
+<rect x="27" y="33" width="366" height="84" rx="42" fill="none" stroke="#ff9be8" stroke-opacity=".35"/>
+<circle cx="74" cy="75" r="25" fill="url(#orb)" stroke="#ffb0ef" stroke-width="1.5"/>
+<path d="M59 65 L74 77 L89 65 M59 66 L59 86 L89 86 L89 66" fill="none" stroke="#fff" stroke-width="2.2" stroke-linejoin="round"/>
+<line x1="116" y1="52" x2="116" y2="98" stroke="#bd78c8" stroke-opacity=".5"/>
+<text x="137" y="68" font-family="Arial,sans-serif" font-size="14" font-weight="800" letter-spacing="1.4" fill="#ffb0ec">Email:</text>
+<text x="137" y="93" font-family="Arial,sans-serif" font-size="14.5" font-weight="700" fill="#fff">sharnithat@gmail.com</text>
+<text x="350" y="86" font-family="Arial,sans-serif" font-size="30" fill="#ff69db">↗</text>
+<circle cx="31" cy="31" r="2" fill="#fff"/><circle cx="389" cy="118" r="2" fill="#fff"/>
+</svg>

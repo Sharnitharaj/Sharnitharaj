@@ -1,0 +1,25 @@
+name: Update Space Shooter Contribution Journey
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "0 0 * * *"
+
+permissions:
+  contents: write
+
+jobs:
+  update-game:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v6
+        with:
+          fetch-depth: 2
+
+      - uses: czl9707/gh-space-shooter@v2
+        with:
+          github-token: ${{ secrets.GITHUB_TOKEN }}
+          username: Sharnitharaj
+          output-path: "assets/space-shooter.gif"
+          strategy: "random"
+          fps: 40

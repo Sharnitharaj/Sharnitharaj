@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 210">
+<defs>
+  <linearGradient id="g" x1="0" x2="1"><stop stop-color="#8A00FF"/><stop offset=".5" stop-color="#FF2BA6"/><stop offset="1" stop-color="#C026FF"/></linearGradient>
+</defs>
+<rect width="1200" height="210" rx="24" fill="#16001F" stroke="#5E1765"/>
+<text x="600" y="55" fill="#D58AC9" font-family="Arial" font-size="16" font-weight="700" text-anchor="middle">The workflow behind every dashboard and analysis.</text>
+<g font-family="Arial" text-anchor="middle">
+  <g fill="#FFFFFF" font-size="14" font-weight="700">
+    <text x="135" y="112">🧹 CLEAN DATA</text>
+    <text x="435" y="112">🔎 FIND PATTERNS</text>
+    <text x="765" y="112">📊 BUILD DASHBOARDS</text>
+    <text x="1065" y="112">💡 EXTRACT INSIGHTS</text>
+  </g>
+  <g stroke="url(#g)" stroke-width="3" fill="none">
+    <path d="M205 105 C260 75 310 75 365 105"/>
+    <path d="M505 105 C565 75 635 75 695 105"/>
+    <path d="M845 105 C900 75 955 75 1025 105"/>
+  </g>
+  <g fill="#FF2BA6">
+    <path d="M365 105l-12-7m12 7l-12 7"/>
+    <path d="M695 105l-12-7m12 7l-12 7"/>
+    <path d="M1025 105l-12-7m12 7l-12 7"/>
+  </g>
+</g>
+</svg>

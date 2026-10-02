@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="920" height="160" viewBox="0 0 920 160" role="img" aria-label="Find the analyst">
+<defs>
+ <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#12001f"/><stop offset=".5" stop-color="#25002f"/><stop offset="1" stop-color="#09000f"/></linearGradient>
+ <linearGradient id="neon" x1="0" y1="0" x2="1" y2="0"><stop stop-color="#ff2bb3"/><stop offset=".45" stop-color="#d400ff"/><stop offset="1" stop-color="#8b5cf6"/><animate attributeName="x1" values="0;1;0" dur="5s" repeatCount="indefinite"/><animate attributeName="x2" values="1;0;1" dur="5s" repeatCount="indefinite"/></linearGradient>
+ <filter id="glow"><feGaussianBlur stdDeviation="3" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+ <clipPath id="clip"><rect x="18" y="18" width="884" height="124" rx="24"/></clipPath>
+</defs>
+<rect x="1" y="1" width="918" height="158" rx="28" fill="url(#bg)" stroke="#6f147d" stroke-width="2"/>
+<g clip-path="url(#clip)">
+ <g fill="#fff">
+  <circle cx="74" cy="31" r="1.5"><animate attributeName="cy" values="31;125;31" dur="4.2s" repeatCount="indefinite"/></circle>
+  <circle cx="285" cy="139" r="1.2"><animate attributeName="cy" values="139;23;139" dur="5.5s" repeatCount="indefinite"/></circle>
+  <circle cx="558" cy="27" r="1.4"><animate attributeName="cy" values="27;138;27" dur="6s" repeatCount="indefinite"/></circle>
+  <circle cx="842" cy="134" r="1.5"><animate attributeName="cy" values="134;24;134" dur="4.8s" repeatCount="indefinite"/></circle>
+  <circle cx="455" cy="150" r="1"><animate attributeName="cx" values="455;480;455" dur="3.5s" repeatCount="indefinite"/></circle>
+ </g>
+ <path d="M35 92 H885" stroke="#ff2bb3" stroke-opacity=".12"/>
+ <path d="M35 68 H885" stroke="#d400ff" stroke-opacity=".08"/>
+</g>
+
+
+<g>
+ <rect x="48" y="55" width="250" height="62" rx="18" fill="#0b0710" stroke="#ff2bb3" stroke-width="2"/>
+ <rect x="49" y="56" width="248" height="60" rx="17" fill="none" stroke="url(#neon)" stroke-width="2" stroke-dasharray="34 14" filter="url(#glow)">
+   <animate attributeName="stroke-dashoffset" from="0" to="-96" dur="2.2s" repeatCount="indefinite"/>
+ </rect>
+ <circle cx="77" cy="86" r="15" fill="#ff2bb3" fill-opacity=".14"/>
+ <text x="77" y="91" text-anchor="middle" font-family="Arial,sans-serif" font-size="13" font-weight="900" fill="#fff">in</text>
+ <text x="101" y="80" font-family="Arial,sans-serif" font-size="10" font-weight="800" letter-spacing="1.4" fill="#ff8bd5">LINKEDIN</text>
+ <text x="101" y="99" font-family="Arial,sans-serif" font-size="13" font-weight="800" fill="#fff">Sharnitha T</text>
+</g>
+
+<g>
+ <rect x="335" y="55" width="250" height="62" rx="18" fill="#0b0710" stroke="#d400ff" stroke-width="2"/>
+ <rect x="336" y="56" width="248" height="60" rx="17" fill="none" stroke="url(#neon)" stroke-width="2" stroke-dasharray="34 14" filter="url(#glow)">
+   <animate attributeName="stroke-dashoffset" from="0" to="-96" dur="1.9s" repeatCount="indefinite"/>
+ </rect>
+ <circle cx="364" cy="86" r="15" fill="#d400ff" fill-opacity=".14"/>
+ <text x="364" y="91" text-anchor="middle" font-family="Arial,sans-serif" font-size="11" font-weight="900" fill="#fff">GH</text>
+ <text x="388" y="80" font-family="Arial,sans-serif" font-size="10" font-weight="800" letter-spacing="1.4" fill="#dca7ff">GITHUB</text>
+ <text x="388" y="99" font-family="Arial,sans-serif" font-size="13" font-weight="800" fill="#fff">@Sharnitharaj</text>
+</g>
+
+<g>
+ <rect x="622" y="55" width="250" height="62" rx="18" fill="#0b0710" stroke="#9a00ff" stroke-width="2"/>
+ <rect x="623" y="56" width="248" height="60" rx="17" fill="none" stroke="url(#neon)" stroke-width="2" stroke-dasharray="34 14" filter="url(#glow)">
+   <animate attributeName="stroke-dashoffset" from="0" to="-96" dur="2.5s" repeatCount="indefinite"/>
+ </rect>
+ <circle cx="650" cy="86" r="15" fill="#9a00ff" fill-opacity=".14"/>
+ <text x="650" y="91" text-anchor="middle" font-family="Arial,sans-serif" font-size="13" font-weight="900" fill="#fff">@</text>
+ <text x="674" y="80" font-family="Arial,sans-serif" font-size="10" font-weight="800" letter-spacing="1.4" fill="#f0b0ff">EMAIL</text>
+ <text x="674" y="99" font-family="Arial,sans-serif" font-size="11.5" font-weight="800" fill="#fff">sharnithat@gmail.com</text>
+</g>
+</svg>

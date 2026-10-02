@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="88" viewBox="0 0 1200 88">
+<defs>
+<linearGradient id="t" x1="0" x2="1"><stop stop-color="#FF2BA6"/><stop offset=".45" stop-color="#C026FF"/><stop offset="1" stop-color="#8A00FF"/></linearGradient>
+<filter id="g"><feGaussianBlur stdDeviation="3" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+</defs>
+<text x="600" y="52" text-anchor="middle" font-family="Arial, sans-serif" font-size="30" font-weight="700" letter-spacing="7" fill="url(#t)" filter="url(#g)">GITHUB DATA MONITOR</text>
+<text x="600" y="52" text-anchor="middle" font-family="Arial, sans-serif" font-size="30" font-weight="700" letter-spacing="7" fill="url(#t)">GITHUB DATA MONITOR</text>
+<line x1="300" y1="69" x2="900" y2="69" stroke="#6A0080" stroke-width="2"/>
+<line x1="300" y1="69" x2="900" y2="69" stroke="url(#t)" stroke-width="2" stroke-dasharray="14 10"><animate attributeName="stroke-dashoffset" from="0" to="-48" dur="2.8s" repeatCount="indefinite"/></line>
+<circle cx="300" cy="69" r="3.5" fill="#FFB3F7" filter="url(#g)"><animate attributeName="cx" values="300;900;300" dur="3.8s" repeatCount="indefinite"/></circle>
+<circle cx="900" cy="69" r="2" fill="#FF2BA6"><animate attributeName="cx" values="900;300;900" dur="3.8s" repeatCount="indefinite"/></circle>
+</svg>
